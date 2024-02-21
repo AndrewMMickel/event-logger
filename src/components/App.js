@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import './App.css';
+import EventControl from "./EventControl";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
+      <EventControl />
     </React.Fragment>
   );
 }
