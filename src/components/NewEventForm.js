@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
 function NewEventForm(props) {
     function handleNewEventFormSubmission(event) {
+        console.log(event.target);
         event.preventDefault();
         props.onNewEventCreation({
             names: event.target.names.value,
@@ -18,7 +19,7 @@ function NewEventForm(props) {
         <React.Fragment>
             <ReusableForm
                 formSubmissionHandler={handleNewEventFormSubmission}
-                buttonText="Help!" />
+                buttonText="Add event!" />
         </React.Fragment>
     );
 }

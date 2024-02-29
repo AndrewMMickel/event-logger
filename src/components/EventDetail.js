@@ -7,7 +7,7 @@ function EventDetail(props) {
     return (
         <React.Fragment>
             <h1>event Detail</h1>
-            <h3>{event.events}</h3>
+            <h3>{event.names}</h3>
             <h3>{event.location}</h3>
             <p><em>{event.date}</em></p>
             <p><em>{event.description}</em></p>

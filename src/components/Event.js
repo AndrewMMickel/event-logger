@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Ticket(props) {
+function Event(props) {
     return (
         <React.Fragment>
-            <div onClick={() => props.whenTicketClicked(props.id)}>
+            <div onClick={() => props.whenEventClicked(props.id)}>
                 <h3>{props.names}</h3>
                 <h3>{props.location}</h3>
                 <p><em>{props.date}</em></p>
@@ -15,13 +15,13 @@ function Ticket(props) {
     );
 }
 
-Ticket.propTypes = {
+Event.propTypes = {
     names: PropTypes.string,
     location: PropTypes.string,
     description: PropTypes.string,
     date: PropTypes.string,
     id: PropTypes.string,
-    whenTicketClicked: PropTypes.func
+    whenEventClicked: PropTypes.func
 };
 
 export default Event;

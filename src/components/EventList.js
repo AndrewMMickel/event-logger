@@ -12,6 +12,7 @@ function EventList(props) {
                     whenEventClicked={props.onEventSelection}
                     names={event.names}
                     location={event.location}
+                    date={event.date}
                     description={event.description}
                     id={event.id}
                     key={event.id} />

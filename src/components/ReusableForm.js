@@ -11,6 +11,7 @@ function ReusableForm(props) {
                     placeholder='Event Name' />
                 <input
                     type='date'
+                    name='date'
                     placeholder='Event Date' />
                 <input
                     type='text'
