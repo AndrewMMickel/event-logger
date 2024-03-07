@@ -3,6 +3,7 @@ import NewEventForm from './NewEventForm';
 import EventList from './EventList';
 import EventDetail from './EventDetail';
 import EditEventForm from './EditEventForm';
+
 class EventControl extends React.Component {
 
     constructor(props) {
@@ -71,7 +72,7 @@ class EventControl extends React.Component {
         let currentlyVisibleState = null;
         let buttonText = null;
         if (this.state.editing) {
-            currentlyVisibleState = <EditEventForm event={this.state.selectedEvent} onEditEvent={this.handleEditingEventInList} />
+            currentlyVisibleState = <EditEventForm eventToEdit={this.state.selectedEvent} onEditEvent={this.handleEditingEventInList} />
             buttonText = "Return to Event List";
         } else if (this.state.selectedEvent != null) {
             currentlyVisibleState =

@@ -3,11 +3,11 @@ import ReusableForm from "./ReusableForm";
 import PropTypes from "prop-types";
 
 function EditEventForm(props) {
-    const { event } = props;
+    const { eventToEdit } = props;
 
-    function handleEditEventFormSubmission(events) {
+    function handleEditEventFormSubmission(event) {
         event.preventDefault();
-        props.onEditEvent({ names: event.target.names.value, location: event.target.location.value, date: event.target.date.value, description: event.target.description.value, id: event.id });
+        props.onEditEvent({ names: event.target.names.value, location: event.target.location.value, date: event.target.date.value, description: event.target.description.value, id: eventToEdit.id });
     }
 
     return (
