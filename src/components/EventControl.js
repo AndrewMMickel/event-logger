@@ -60,6 +60,30 @@ class EventControl extends React.Component {
         this.setState({ selectedEvent: selectedEvent });
     }
 
+    handleAddingAttendance = (event) => {
+        const editedEvent = { ...event, quantity: event.quantity + 1 };
+        const updatedMainEventList = this.state.mainEventList
+            .filter(event => event.id !== this.state.selectedEvent.id)
+            .concat(editedEvent);
+        this.setState({
+            mainEventList: updatedMainEventList, selectedEvent: editedEvent
+        });
+    };
+
+    handleSubtractingAttendance = (event) => {
+        if (event.quantity === 0) {
+            return;
+        } else {
+            const editedEvent = { ...event, quantity: event.quantity - 1 };
+            const updatedMainEventList = this.state.mainEventList
+                .filter(event => event.id !== this.state.selectedEvent.id)
+                .concat(editedEvent);
+            this.setState({
+                mainEventList: updatedMainEventList, selectedEvent: editedEvent
+            });
+        }
+    }
+
     handleDeletingEvent = (id) => {
         const newMainEventList = this.state.mainEventList.filter(event => event.id !== id);
         this.setState({
@@ -79,7 +103,9 @@ class EventControl extends React.Component {
                 <EventDetail
                     event={this.state.selectedEvent}
                     onClickingDelete={this.handleDeletingEvent}
-                    onClickingEdit={this.handleEditClick} />
+                    onClickingEdit={this.handleEditClick}
+                    onAddingAttendance={this.handleAddingAttendance}
+                    onSubtractingAttendance={this.handleSubtractingAttendance} />
             buttonText = "Return to Event List";
         }
         else if (this.state.formVisibleOnPage) {

@@ -11,6 +11,7 @@ function NewEventForm(props) {
             location: event.target.location.value,
             date: event.target.date.value,
             description: event.target.description.value,
+            quantity: 0,
             id: v4()
         });
     }

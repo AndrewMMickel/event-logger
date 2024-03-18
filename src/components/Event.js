@@ -9,6 +9,7 @@ function Event(props) {
                 <h3>{props.location}</h3>
                 <p><em>{props.date}</em></p>
                 <p><em>{props.description}</em></p>
+                <p>{parseInt(props.quantity)}</p>
                 <hr />
             </div>
         </React.Fragment>

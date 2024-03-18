@@ -7,7 +7,14 @@ function EditEventForm(props) {
 
     function handleEditEventFormSubmission(event) {
         event.preventDefault();
-        props.onEditEvent({ names: event.target.names.value, location: event.target.location.value, date: event.target.date.value, description: event.target.description.value, id: eventToEdit.id });
+        props.onEditEvent({
+            names: event.target.names.value,
+            location: event.target.location.value,
+            date: event.target.date.value,
+            description: event.target.description.value,
+            quantity: event.target.quantity.value,
+            id: eventToEdit.id
+        });
     }
 
     return (
