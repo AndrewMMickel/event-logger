@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1e2127;
 }
 
 code {
@@ -21,4 +22,19 @@ code {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.event-comp {
+  width: 40%;
+  height: auto;
+  margin: 1% auto;
+  display: block;
+  justify-content: space-evenly;
+  border: solid;
+  padding-left: 0px;
+  color: #00aa17;
+  border-radius: 7px;
+  text-align: center;
+  transition: .3s ease-in-out;
+
 }

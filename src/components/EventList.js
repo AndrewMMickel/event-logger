@@ -10,6 +10,7 @@ function EventList(props) {
             {props.eventList.map((event) =>
                 <Event
                     whenEventClicked={props.onEventSelection}
+                    imageurl={event.imageurl}
                     names={event.names}
                     location={event.location}
                     date={event.date}

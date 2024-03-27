@@ -8,6 +8,7 @@ function NewEventForm(props) {
         event.preventDefault();
         props.onNewEventCreation({
             names: event.target.names.value,
+            imageurl: event.target.imageurl.value,
             location: event.target.location.value,
             date: event.target.date.value,
             description: event.target.description.value,

@@ -5,8 +5,10 @@ import EventControl from "./EventControl";
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <EventControl />
+      <div id="body">
+        <Header />
+        <EventControl />
+      </div>
     </React.Fragment>
   );
 }

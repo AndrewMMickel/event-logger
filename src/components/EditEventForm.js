@@ -9,6 +9,7 @@ function EditEventForm(props) {
         event.preventDefault();
         props.onEditEvent({
             names: event.target.names.value,
+            imageurl: event.target.imageurl.value,
             location: event.target.location.value,
             date: event.target.date.value,
             description: event.target.description.value,
