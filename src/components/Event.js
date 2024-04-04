@@ -10,7 +10,7 @@ function Event(props) {
                 <h3>{props.location}</h3>
                 <p><em>{props.date}</em></p>
                 <p><em>{props.description}</em></p>
-                <p>{parseInt(props.quantity)}</p>
+                <p>{props.quantity}</p>
                 <hr />
             </div>
         </React.Fragment>
@@ -23,6 +23,7 @@ Event.propTypes = {
     description: PropTypes.string,
     date: PropTypes.string,
     id: PropTypes.string,
+    quantity: PropTypes.number,
     whenEventClicked: PropTypes.func
 };
 

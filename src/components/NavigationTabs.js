@@ -6,11 +6,14 @@ const navTabStyles = {
 }
 
 const navBtnStyles = {
-    border: "1px solid #00aa17",
+    border: "3px solid #00aa17",
     color: "#00aa17",
     height: "100%",
     width: "20%",
-    fontSize: "1.1vw"
+    fontSize: "1.1vw",
+    backgroundColor: "black",
+    justifyContent: "space-between",
+    borderRadius: "25px"
 }
 
 function NavigationTabs() {

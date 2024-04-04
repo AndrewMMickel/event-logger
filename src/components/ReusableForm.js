@@ -5,7 +5,7 @@ function ReusableForm(props) {
     return (
         <React.Fragment>
             <form onSubmit={props.formSubmissionHandler}>
-                <label for='imageurl'>Image url</label><br />
+                <label htmlFor='imageurl'>Image url</label><br />
                 <input
                     type='text'
                     name='imageurl'

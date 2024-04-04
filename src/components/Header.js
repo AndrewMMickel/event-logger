@@ -5,14 +5,16 @@ const inputStyles = {
     height: "30px",
     borderRadius: "25px",
     border: "3px solid #00aa17",
-    textAlign: "center"
+    textAlign: "center",
+    backgroundColor: "black",
 }
 
 const headerStyles = {
     width: "70%",
     margin: "0 auto",
     display: "flex",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+    // backgroundColor: "black"
 
 }
 

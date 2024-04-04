@@ -12,19 +12,21 @@ function EventDetail(props) {
 
     return (
         <React.Fragment>
-            <h1>Event Details</h1>
-            <img src={event.imageurl ? props.event.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt="" />
-            <h3>Event Name: {event.names}</h3>
-            <h3>Location: {event.location}</h3>
-            <p>Event starts on: <em>{event.date}</em></p>
-            <p>Extra notes about the event: <em>{event.description}</em></p>
-            <h3>Are you attending? <button onClick={() => onAddingAttendance(event)}>Yes</button>
-                <button>Maybe</button>
-                <button onClick={() => onSubtractingAttendance(event)}>No</button></h3>
-            <p>Attendance numbers: {event.quantity}</p>
-            <button onClick={props.onClickingEdit}>Update event</button>
-            <button onClick={() => onClickingDelete(event.id)}>Close event</button>
-            <hr />
+            <div className="event-detail">
+                <h1>Event Details</h1>
+                <img src={event.imageurl ? props.event.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt="" />
+                <h3>Event Name: {event.names}</h3>
+                <h3>Location: {event.location}</h3>
+                <p>Event starts on: <em>{event.date}</em></p>
+                <p>Extra notes about the event: <em>{event.description}</em></p>
+                <h3>Are you attending? <button onClick={() => onAddingAttendance(event)}>Yes</button>
+                    <button>Maybe</button>
+                    <button onClick={() => onSubtractingAttendance(event)}>No</button></h3>
+                <p>Attendance numbers: {event.quantity}</p>
+                <button onClick={props.onClickingEdit}>Update event</button>
+                <button onClick={() => onClickingDelete(event.id)}>Close event</button>
+                <hr />
+            </div>
         </React.Fragment>
     );
 }
