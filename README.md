@@ -1,3 +1,31 @@
+Event Logger
+=============
+A project used for recording notable events. It uses a reusable form to let the user create as many events as they want.
+
+Project requirements
+--------------------
+- [x] Add full CRUD functionality for types of events to be logged. For instance, in a bird-watching application, a user might add "Spotted Sandpiper" to indicate a viewing of that kind of bird.
+- [x] Allow users to increment the event by one when there is a viewing, a play of the game, or so on. Users should also be able to decrement an event (for instance, if they made a mistake).
+
+Additional exploration
+----------------------
+- [ ] Add a page function into the site for organization purposes
+
+Diagram
+----------------------
+[Diagram of project]
+
+Table of contents
+----------------------
+| Time | Sheet |
+| ----------- | ----------- |
+| Day | Hours |
+| [Project requirements](#Project-requirements) | Text |
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
+| Paragraph | Text |
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +96,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+[Diagram of project]: diagram.drawio

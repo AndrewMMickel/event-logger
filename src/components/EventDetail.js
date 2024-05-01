@@ -19,12 +19,12 @@ function EventDetail(props) {
                 <h3>Location: {event.location}</h3>
                 <p>Event starts on: <em>{event.date}</em></p>
                 <p>Extra notes about the event: <em>{event.description}</em></p>
-                <h3>Are you attending? <button onClick={() => onAddingAttendance(event)}>Yes</button>
-                    <button>Maybe</button>
-                    <button onClick={() => onSubtractingAttendance(event)}>No</button></h3>
+                <h3>Are you attending? <button id="buttonStyle" onClick={() => onAddingAttendance(event)}>Yes</button>
+                    <button id="buttonStyle">Maybe</button>
+                    <button id="buttonStyle" onClick={() => onSubtractingAttendance(event)}>No</button></h3>
                 <p>Attendance numbers: {event.quantity}</p>
-                <button onClick={props.onClickingEdit}>Update event</button>
-                <button onClick={() => onClickingDelete(event.id)}>Close event</button>
+                <button id="buttonStyle" onClick={props.onClickingEdit}>Update event</button>
+                <button id="buttonStyle" onClick={() => onClickingDelete(event.id)}>Close event</button>
                 <hr />
             </div>
         </React.Fragment>

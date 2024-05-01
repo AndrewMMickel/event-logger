@@ -1,0 +1,121 @@
+<mxfile host="65bd71144e">
+    <diagram id="B2mIAimVheXLZhr3V_hZ" name="Page-1">
+        <mxGraphModel dx="1211" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="10" y="10" width="1680" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry width="1680" height="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Event Logger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="12" vertex="1">
+                    <mxGeometry x="1135" y="15" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="group" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="840" y="250" width="440" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="16" vertex="1">
+                    <mxGeometry width="440" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ReusableForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="16" vertex="1">
+                    <mxGeometry x="146.7362428842505" y="8.928571428571429" width="146.52751423149905" height="26.785714285714285" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Form used to make all events. It takes in information like Date, Location, Name of Event, ect and sends it back into EventList as an Event." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="16" vertex="1">
+                    <mxGeometry x="10" y="35.71" width="420" height="54.29" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="group" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="230" y="580" width="337" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="20" vertex="1">
+                    <mxGeometry width="337" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="EventDetail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="20" vertex="1">
+                    <mxGeometry x="121.97865275142316" y="5.357142857142857" width="93.0426944971537" height="16.07142857142857" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Details page that allows you to see all of the information on a single event. On this page you can view the Name, Location, Date, ect of an event, click on a button to say if you are attending said event or not, edit the event, or outright delete the event." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="20" vertex="1">
+                    <mxGeometry x="10" y="21.43" width="320" height="118.57" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="12" source="9" target="8" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="900" y="540" as="sourcePoint"/>
+                        <mxPoint x="1000" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1060" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="group" parent="12" vertex="1" connectable="0">
+                    <mxGeometry x="1150" y="930" width="525" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="10" vertex="1">
+                    <mxGeometry width="525" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="10" vertex="1">
+                    <mxGeometry x="232.5" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Top of the application. It doesn't have any functionality but it could later on. For now it's purely decorative." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10" vertex="1">
+                    <mxGeometry x="10" y="40" width="510" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="12" vertex="1">
+                    <mxGeometry x="820" y="45" width="850" height="185" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="20" y="25" width="770" height="485" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="11" vertex="1">
+                    <mxGeometry width="770" height="485.00000000000006" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="EventControl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="11" vertex="1">
+                    <mxGeometry x="215" y="6.895734597156399" width="340" height="13.791469194312798" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="group" parent="11" vertex="1" connectable="0">
+                    <mxGeometry x="10" y="175" width="750" height="305" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="34" vertex="1">
+                    <mxGeometry width="750" height="305" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="EventList" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry x="280" y="10" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="A list of all the Events within the project, used to organize said Events for handlers within EventControl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="34" vertex="1">
+                    <mxGeometry x="10" y="30" width="730" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="group" parent="34" vertex="1" connectable="0">
+                    <mxGeometry x="10" y="130" width="730" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="group" parent="29" vertex="1" connectable="0">
+                    <mxGeometry width="730" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="32" vertex="1">
+                    <mxGeometry width="730" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="32" vertex="1">
+                    <mxGeometry x="290" y="9.44" width="150" height="28.33" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Individual events that are stored inside of EventList. Each event contains information of the event's name, location, date, number of attendees, ect." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="32" vertex="1">
+                    <mxGeometry x="10" y="37.77" width="710" height="122.23" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="The main file that handles all interactions with the site through handlers. These handlers affect a variable named currentlyVisibleState to determine which form or Event you will see." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="11" vertex="1">
+                    <mxGeometry x="10" y="25" width="750" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="8" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="790" y="385" as="sourcePoint"/>
+                        <mxPoint x="650" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="9" edge="1">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="570" y="550" as="sourcePoint"/>
+                        <mxPoint x="409" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Reusable form is also used for the editing functionality on each Event." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="340" width="420" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

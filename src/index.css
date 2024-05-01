@@ -31,6 +31,12 @@
   color: white;
 }
 
+#buttonStyle {
+  color: #00aa17;
+  background-color: black;
+  border: solid;
+}
+
 .event-comp {
   width: 40%;
   height: auto;

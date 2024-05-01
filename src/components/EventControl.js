@@ -118,7 +118,7 @@ class EventControl extends React.Component {
         return (
             <React.Fragment>
                 {currentlyVisibleState}
-                <button onClick={this.handleClick}>{buttonText}</button>
+                <button id="buttonStyle" onClick={this.handleClick}>{buttonText}</button>
             </React.Fragment>
         );
     }
