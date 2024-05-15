@@ -1,6 +1,6 @@
 Event Logger
 =============
-A project used for recording notable events. It uses a reusable form to let the user create as many events as they want.
+A project used for recording notable events. It uses a reusable form to let the user create as many events as they want. They can create an event, view all the information of the event, edit the event, and delete the event. For the background and button designs I went with a space theme, so starry sky and green 
 
 Project requirements
 --------------------
@@ -9,7 +9,8 @@ Project requirements
 
 Additional exploration
 ----------------------
-- [ ] Add a page function into the site for organization purposes
+- [x] Add a background. Also make the background scale with the size of the display.
+- [ ] Add a multiple pages function into the site for organization purposes.
 
 Diagram
 ----------------------
@@ -18,14 +19,15 @@ Diagram
 Table of contents
 ----------------------
 | Time | Sheet |
-| ----------- | ----------- |
+| ---- | ------|
 | Day | Hours |
-| [Project requirements](#Project-requirements) | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
-| Paragraph | Text |
+|     |       |
+|     |       |
+|     |       |
+|     |       |
+|     |       |
+|     |       |
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
