@@ -1,4 +1,5 @@
 Event Logger
+=============
 By: Andrew
 =============
 An app used for keeping track of events
@@ -9,15 +10,18 @@ A project used for recording notable events. It uses a reusable form to let the 
 
 Technologies used
 --------------------
+* JavaScript
+* HTML
+* CSS
 
 setup/installation instructions
 ---------------------
-1.
-2.
-3.
-4.
-5.
-6.
+1. You will need Git bash to get this project working on your computer. Grab it here: [Git bash link]
+2. Download the zip file from the green dropdown menu with the words < > Code on it.
+3. unzip the project into a folder of your choice, then access the folder until you see all the files.
+4. Right click inside the project folder and click on "Git Bash Here" to open a command prompt.
+5. type the command "npm install" and hit enter. once the command is finished running, type in the command "npm run start" to open the event-logger project.
+6. If done correctly then the project should automatically open in your browser.
 
 Project requirements
 --------------------
@@ -47,6 +51,7 @@ Table of contents
 
 Known Bugs
 --------------------
+No known bugs
 
 License
 --------------------
@@ -59,3 +64,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [Diagram of project]: diagram.drawio
+[Git bash link]: https://git-scm.com/downloads
