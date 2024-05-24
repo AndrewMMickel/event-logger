@@ -37,6 +37,9 @@ Diagram
 ----------------------
 [Diagram of project]
 
+![Image of Diagram](Capture.PNG)
+
+
 Table of contents
 ----------------------
 | Time | Sheet |
